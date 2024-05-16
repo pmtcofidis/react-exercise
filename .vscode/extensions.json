@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "vivaxy.vscode-conventional-commits",
+        "esbenp.prettier-vscode",
+        "stylelint.vscode-stylelint",
+        "dbaeumer.vscode-eslint",
+        "ms-playwright.playwright",
+    ]
+}

@@ -1,20 +1,20 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repository is a base for an exercise where we want candidates to demonstrate their technical skills.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Clone the repo and execute the exercise. In the end, share the repo with us
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# The challenge
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+ - Goal:
+    
+    The idea is to create a credit simulator, like a wizard where we will have multiple steps:
+    -    1 (Amount): based in the limits (response from the api), you must have a text box to input the total amount that the client want to to request, and also a slider where the bounderies are the limits. Limits validation should be done before jump into next step. Limits should be visible in screen.
+    -  2 (Months): the user should select the number of months that want to pay starting from 3 months to 12. It should be able to select using a slider and also an input. 
+    -  3 (Resume): it should be visible all the data selected in the previous steps
+
+ - Tech notes:
+    - The ideia is to use a component lib, you can choose any one at your choice
+    - We want to see how you handle hooks, state among other tecnical details
+    - Use Typescript
+    - We have already a api mock in place so you can consume. Just run `pnpm run mock`. The endpoint is at http://localhost:3001/limits
