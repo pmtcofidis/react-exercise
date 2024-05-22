@@ -1,0 +1,7 @@
+{
+    "limits": {
+        "min": 50,
+        "max": 1000,
+        "currency": "eur"
+    }
+}

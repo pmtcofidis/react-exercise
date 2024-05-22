@@ -1,15 +1,15 @@
 {
-  "name": "react_exercice",
+  "name": "react_exercise",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/react_exercice.cjs.js",
-  "module": "./dist/react_exercice.es.mjs",
+  "main": "./dist/react_exercise.cjs.js",
+  "module": "./dist/react_exercise.es.mjs",
   "types": "dist/main.d.ts",
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
-      "import": "./dist/react_exercice.es.mjs",
-      "require": "./dist/react_exercice.cjs.js"
+      "import": "./dist/react_exercise.es.mjs",
+      "require": "./dist/react_exercise.cjs.js"
     }
   },
   "engines": {
@@ -26,7 +26,8 @@
     "lint": "eslint src --report-unused-disable-directives --max-warnings 0",
     "prettier:check": "prettier --check src",
     "build": "vite build ",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mock": "json-server db.json -p 3001"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -43,6 +44,7 @@
     "@vitest/coverage-istanbul": "1.6.0",
     "eslint": "8.56.0",
     "jsdom": "24.0.0",
+    "json-server": "1.0.0-beta.0",
     "prettier": "3.2.5",
     "typescript": "5.3.3",
     "vite": "5.2.11",
