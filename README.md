@@ -2,7 +2,7 @@
 
 This repository is a base for an exercise where we want candidates to demonstrate their technical skills.
 
-Clone the repo and execute the exercise. In the end, share the repo with us
+Clone the repo and execute the exercise. In the end, share the code with us via your own personal repo 
 
 # The challenge
 
