@@ -1,7 +1,28 @@
 {
-    "limits": {
-        "min": 50,
-        "max": 1000,
-        "currency": "eur"
-    }
+    "instituicoes": [
+        {
+            "id": 1,
+            "name": "ABANCA"
+        },
+        {
+            "id": 2,
+            "name": "CREDIT BANK"
+        },
+        {
+            "id": 3,
+            "name": "CREDIBOM"
+        },
+        {
+            "id": 4,
+            "name": "CETELEM"
+        },
+        {
+            "id": 5,
+            "name": "BEST"
+        },
+        {
+            "id": 6,
+            "name": "BNI"
+        }
+    ]
 }
