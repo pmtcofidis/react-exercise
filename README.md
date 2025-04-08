@@ -14,7 +14,7 @@ Clone the repo and execute the exercise. In the end, share the code with us via 
     -  3 (Resume): it should be visible all the data selected in the previous steps
 
  - Tech notes:
-    - The ideia is to use a component lib, you can choose any one at your choice
+    - The repository already has shadcn/ui configured, so if you have experience on it, go ahead, otherwise the ideia is to use a component lib at your choice in a way your are confortable and reduce time with investigation or even technical details
     - We want to see how you handle hooks, state among other tecnical details
     - Use Typescript
     - We have already a api mock in place so you can consume. Just run `pnpm run mock`. The endpoint is at http://localhost:3001/limits

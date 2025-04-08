@@ -1,56 +1,40 @@
 {
-  "name": "react_exercise",
+  "name": "react-exercise",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/react_exercise.cjs.js",
-  "module": "./dist/react_exercise.es.mjs",
-  "types": "dist/main.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/main.d.ts",
-      "import": "./dist/react_exercise.es.mjs",
-      "require": "./dist/react_exercise.cjs.js"
-    }
-  },
-  "engines": {
-    "node": "^20.9.0",
-    "pnpm": "^9.0.0"
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "vite",
-    "test": "vitest",
-    "lint": "eslint src --report-unused-disable-directives --max-warnings 0",
-    "prettier:check": "prettier --check src",
-    "build": "vite build ",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
     "preview": "vite preview",
     "mock": "json-server db.json -p 3001"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "@radix-ui/react-slot": "1.1.2",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.487.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "3.2.0",
+    "tw-animate-css": "1.2.5"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "6.4.5",
-    "@testing-library/react": "15.0.7",
-    "@testing-library/user-event": "14.5.2",
-    "@types/node": "20.12.12",
-    "@types/react": "18.3.2",
-    "@types/react-dom": "18.3.0",
-    "@vitejs/plugin-react": "4.2.1",
-    "@vitest/coverage-istanbul": "1.6.0",
-    "eslint": "8.56.0",
-    "jsdom": "24.0.0",
+    "@eslint/js": "^9.21.0",
+    "@tailwindcss/vite": "4.1.3",
     "json-server": "1.0.0-beta.0",
-    "prettier": "3.2.5",
-    "typescript": "5.3.3",
-    "vite": "5.2.11",
-    "vite-bundle-visualizer": "1.2.1",
-    "vite-plugin-checker": "0.6.4",
-    "vite-plugin-svgr": "4.2.0",
-    "vitest": "1.6.0"
+    "@types/node": "22.14.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "tailwindcss": "4.1.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
   }
 }
